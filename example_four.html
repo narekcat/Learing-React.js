@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React.js example</title>
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+  </head>
+  <body>
+    <script type="text/babel">
+      var Photo = React.createClass({
+        render: function() {
+          return (
+            <div className='photo' />
+              <img src= >
+              <span></span>
+            </div>
+          )
+        }
+      });
+
+      React.render(<Photo imageURL='img/React_js.png' caption='React logo'/>, document.body);
+    </script>
+  </body>
+</html>
